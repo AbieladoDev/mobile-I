@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/inimigo"
+        android:layout_width="238dp"
+        android:layout_height="255dp"
+        app:srcCompat="@drawable/padrao"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma opção"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ImageView
+        android:id="@+id/pedra"
+        android:layout_width="109dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/pedra"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <ImageView
+        android:id="@+id/papel"
+        android:layout_width="104dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/papel"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <ImageView
+        android:id="@+id/tesoura"
+        android:layout_width="111dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/tesoura"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="594dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
